@@ -12,17 +12,17 @@ export class HeroesComponent {
     constructor (
       private heroService: HeroService
     ){}
-    person:Hero = {
-      id:1,
-      name:"Kevin"
-    }
+    // person:Hero = {
+    //   id:1,
+    //   name:"Kevin"
+    // }
 
     heroes:Hero[] = [];
     selectedHero?:Hero;
 
-    onSelect = (hero:Hero)=>{
-      this.selectedHero = hero
-    }
+    // onSelect = (hero:Hero)=>{
+    //   this.selectedHero = hero
+    // }
     getHeroes():void {
       // this.heroes = this.heroService.getHeroes()
       this.heroService.getHeroes()

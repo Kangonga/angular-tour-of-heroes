@@ -1,5 +1,10 @@
 <h1>{{title}}</h1>
 <p>App component ends</p>
 <p>-----------------</p>
-<app-heroes></app-heroes>
+<nav>
+    <a routerLink="/heroes">Heroes</a>
+    <br>
+    <a routerLink="/dashboard">Dashboard</a>
+</nav>
+<router-outlet></router-outlet>
 <app-messages></app-messages>
